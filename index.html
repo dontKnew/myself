@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Fontawesome  -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Custom Javascript -->
+    <script src="js/index.js"></script>
+    <title>Protfolio 0.1</title>
+</head>
+<body>
+  <div class="top-heading"><i class="fas fa-code"></i><span>This Website is under Development</span><i class="fas fa-code code1"></i></div>
+  <i class="fas fa-bars" onclick="openMenu()"></i>
+    <header id="header">
+        <i class="far fa-times-circle" onclick="closeMenu()"></i>
+        <div>
+        <img src="image/profile.jpg" alt="profile" class="">
+        </div>
+        <h1>Sajid Ali</h1>
+        <div class="header-icon">
+          <a href="https://www.facebook.com/profile.php?id=100023854041628" target="blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100023854041628" target="blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100023854041628" target="blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCx17TpbQ8JoQ-EdeltD1LIA" target="blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100023854041628" target="blank"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="header-bar">
+          <li onclick="closeMenu()"><a href="#home" class=""><i class="fas fa-home"></i><span>Home</span></a></li>
+          <li onclick="closeMenu()"><a href="#about" class=""><i class="fas fa-user"></i> <span>About</span></a></li>
+          <li onclick="closeMenu()"><a href="#resume" class=""><i class="fas fa-file"></i> <span>Resume</span></a></li>
+          <li onclick="closeMenu()"><a href="#portfolio" class=""><i class="fas fa-id-card"></i> <span>Portfolio</span></a></li>
+          <li onclick="closeMenu()"><a href="#portfolio" class=""><i class="fas fa-server"></i> <span>Services</span></a></li>
+          <li onclick="closeMenu()"><a href="#contact" class=""><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+        </div>
+    </header>
+    <div class="web-body" id="home">
+      <!-- Navbar section -->
+      <section class="auto-typer-image">
+        <h1>Sajid Ali</h1>  
+        <div class="auto-typer-container">
+            <p>I'm <span class="typewrite" data-period="2000" data-type='["All Rounder😅","Web Designer", "Freelancer", "Computer Operator", "Youtuber"]'></p>
+        </div>   
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="about-title">
+          <h1>About</h1>
+          <p> Hey! Let's knew myself little bit, I loved coding since 3 years ago and I started learn programming language three years ago, but thereafter one year i stopped learn programming language becuase exam and any other problems face in front of me, and thereafer one year i bought a laptop for especially become software engineer, but unfortunately I am not become a software engineer till date, So i decided firstly to become Web Developer/Desinger. </p>
+        </div>
+        <div class="about-body">
+          <span>
+            <img src="image/profile.jpg" alt="profile" width="250px" height="250px">
+          </span>
+          <div>
+            <h1>UI/UX Designer &amp; Web Developer</h1>
+            <p>That my little bit information below :  </p>
+            <div class="about-under-info">
+              <div class="about-user-info-1">
+                <div><i class="far fa-hand-point-right"></i><strong>Birthday : </strong><span> 04 Dec 1997</span></div>
+                <div><i class="far fa-hand-point-right"></i><strong>Website : </strong><span> <a href="#" style="color:red"> www.myprotfolio.com </a></span></div>
+                <div><i class="far fa-hand-point-right"></i><strong>Phone : </strong><span> +91 6205881326</span></div>
+                <div><i class="far fa-hand-point-right"></i><strong>City : </strong><span> Delhi, India</span></div>
+              </div>
+              <div class="about-user-info-2">
+                <div><i class="far fa-hand-point-right"></i><strong>Age : </strong><span> 22yrs.</span></div>
+                <div><i class="far fa-hand-point-right"></i><strong>Degree : </strong><span> Graduate (B.com)</span></div>
+                <div><i class="far fa-hand-point-right"></i><strong>Email : </strong><span> israfil123.sa@gmail.com</span></div>
+                <div><i class="far fa-hand-point-right"></i><strong>Freelance : </strong><span> Available</span></div>
+              </div>
+            </div>
+            <p style="position: relative; bottom:18px;">I can develope UI/UX Design/Dynamically website using HTML, CSS, JAVASCRIPT with Basic knowledge of PHP, MYSQL AJAX, JQUERy.  </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <div class="skills-title">
+          <h1>Skills</h1>
+          <p>That my skill percentage below, I am not good in all programming language, But One day I'll good in all of them programming language. Becuase I'll never stop learning and doing practice. </p>
+        </div>
+        <div class="skills-container">
+          <div class="skills-1">
+            <div><strong>HTML</strong>
+              <div class="htmlProgress" id="html">
+                <div id="htmlBar" class="html1">100%</div>
+              </div>
+            </div>
+            <div><strong>CSS</strong>
+              <div class="htmlProgress" id="css">
+                <div id="htmlBar" class="css1">80%</div>
+              </div>
+            </div>
+            <div><strong>AJAX</strong>
+              <div class="htmlProgress" id="ajax">
+                <div id="htmlBar" class="ajax1">60%</div>
+              </div>
+            </div>
+            <div><strong>JAVASCRIPT</strong>
+              <div class="htmlProgress" id="javascript">
+                <div id="htmlBar" class="javascript1">70%</div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-2">
+            <div><strong>PHP</strong>
+              <div class="htmlProgress" id="php">
+                <div id="htmlBar" class="php1">75%</div>
+              </div>
+            </div>
+            <div><strong>JQUERY</strong>
+              <div class="htmlProgress" id="jquery">
+                <div id="htmlBar" class="jquery1">70%</div>
+              </div>
+            </div>
+            <div><strong>Responsive Design</strong>
+              <div class="htmlProgress" id="responsive">
+                <div id="htmlBar" class="responsive1">100%</div>
+              </div>
+            </div>
+            <div><strong>MYSQL</strong>
+              <div class="htmlProgress" id="mysql">
+                <div id="htmlBar" class="mysql1">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Resume Section -->
+      <section id="resume">
+        <div class="resume-title">
+          <h1>Resume</h1>
+          <p>As a Front-End Web Developer, I have one years of experience with CSS, JavaScript, and HTML5. On top of that, my skills allowed me to build up UI/UX design website with Basic Knowledge of Backend Lanuage Like PHP, MYSQL, AJAX and JQUERY.</p>
+        </div>
+        <div class="resume-container">
+          <div class="resume-left">
+            <h1>Summary</h1>
+            <div>
+              <div class="circle"></div>
+              <h3>Sajid Ali</h3>
+              <em>I can make UI/UX Design responsive website with my skill HTML, CSS, JAVASCRIPT and Basic knowledge of backend language.</em>
+              <ul>
+                <li>Kapashera, New Delhi</li>
+                <li>+91 6205881326</li>
+                <li>israfil123.sa@gmail.com</li>
+              </ul>
+            </div>
+            <div>
+              <div class="circle"></div>
+              <h1>Education</h1>
+              <h3>Bacholer of Commerce</h3>
+              <em>From School of Open Learnin, New Delhi in the year 2017-21.</em>
+            </div>
+            <div>
+            <div class="circle"></div>
+            <h2>Technical Knowledge</h2>
+            <h3>Computer Proficiency </h3>
+            <em> From Shiva Computer, Kapashera, New Delhi.</em>
+            <ul> 
+              <li>Computer Advance Knowledge.</li>
+              <li>I have compelted computer course Mircosoft office Excel, Mircosoft office Word and Internet browser Surfuing etc. </li>
+              <li>And my typing speed is 45-55 wpm avarage . </li>
+              </ul>
+            </div>
+          </div>
+          <div class="resume-right">  
+            <h1>Professional Experience</h1>
+            <div class="circle"></div>
+            <div>
+              <h3>Computer Operator</h3>
+              <h5>2017-Present</h5>
+              <em>Kapashera, New Delhi</em>
+              <p>I have experience more than three years at Shiva Documentary New Delhi.</p>
+            </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio">
+        <div class="portfolio-title">
+          <h1>Portfolio</h1>
+          <p>I have made some project on based of  BOOTSTRAP CSS, HTML, JAVASCRIPT with Basic Knowledge of PHP, MYSQL, AJAX, JQUERY.<br> You'll see live demo and source code availabe in this website just click on <span style="color:red">Details</span> button below said. 
+            <span style="display: block; text-align: center;"><br /> Hope you'll enjoy my project! <br> Happy Coding :)</span>
+          </p>
+        </div>
+        <div class="portfolio-container">
+          <div class="project-card">
+            <img src="image/project/responsivefb.jpg" alt="thumbnail" width="300px" height="200px">
+            <div class="project-view">
+              <a href="http://crazycoding.epizy.com/Project/facebook/" target="blank"><div><i class="fas fa-eye"></i>Preview</div></a>
+              <a href="" target="blank"><div><i class="fas fa-info-circle"></i>Details</div></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="image/project/login.jpg" alt="thumbnail" width="300px" height="200px">
+            <div class="project-view">
+              <a href="https://crazycoding.epizy.com/Project/Login%20system/" target="blank"><div><i class="fas fa-eye"></i>Preview</div></a>
+              <a href="" target="blank"><div><i class="fas fa-info-circle"></i>Details</div></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="image/project/crud.jpg" alt="thumbnail" width="300px" height="200px">
+            <div class="project-view">
+              <a href="https://crazycoding.epizy.com/Project/Tudo/" target="blank"><div><i class="fas fa-eye"></i>Preview</div></a>
+              <a href="" target="blank"><div><i class="fas fa-info-circle"></i>Details</div></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="image/project/sabshow.jpg" alt="thumbnail" width="300px" height="200px">
+            <div class="project-view">
+              <a href="https://crazycoding.epizy.com/Sabshow/" target="blank"><div><i class="fas fa-eye"></i>Preview</div></a>
+              <a href="#"><div><i class="fas fa-info-circle"></i>Details</div></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="image/project/fblite.jpg" alt="thumbnail" width="300px" height="200px">
+            <div class="project-view">
+              <a href="" target="blank"><div><i class="fas fa-eye"></i>Preview</div></a>
+              <a href="" target="blank"><div><i class="fas fa-info-circle"></i>Details</div></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="image/project/comingsoon.jpg" alt="thumbnail" width="300px" height="200px">
+            <div class="project-view">
+              <a href="" target="blank"><div><i class="fas fa-eye"></i>Preview</div></a>
+              <a href="" target="blank"><div><i class="fas fa-info-circle"></i>Details</div></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="image/project/comingsoon.jpg" alt="thumbnail" width="300px" height="200px">
+            <div class="project-view">
+              <a href="" target="blank"><div><i class="fas fa-eye"></i>Preview</div></a>
+              <a href="" target="blank"><div><i class="fas fa-info-circle"></i>Details</div></a>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="image/project/comingsoon.jpg" alt="thumbnail" width="300px" height="200px">
+            <div class="project-view">
+              <a href="" target="blank"><div><i class="fas fa-eye"></i>Preview</div></a>
+              <a href="" target="blank"><div><i class="fas fa-info-circle"></i>Details</div></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  Contact Section -->
+      <section id="contact">
+        <div class="contact-title">
+          <h1>Contact</h1>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-left">
+            <div class="contact-left-info">
+              <div class="left-icon">
+                <i class="fas fa-map-marker-alt"></i><br>
+                <i class="far fa-envelope"></i><br>
+                <i class="fas fa-mobile"></i><br>
+              </div>
+              <div class="right-info">
+                <h3>Location</h3>
+                <p>702, Street No. 11, Near fun`n Food Village, Kapashera, New Delhi-110037</p>
+                <h3>Email</h3>
+                <p>israfil123.sa@gmail.com</p>
+                <h3>Call:</h3>
+                <p>+91 6205881326</p>
+              </div>
+            </div>
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2336.82332463589!2d77.0832603734822!3d28.524842528651796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1be13b6fdbe9%3A0xa76504067923120!2sKapashera%20Village!5e0!3m2!1sen!2sin!4v1621747234471!5m2!1sen!2sin" width="100%" height="290" style="border:2px solid white;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="contact-right">
+            <form action="" class="contact-form">
+              <div class="contact-em">
+                <div>
+                  <label for="name">Your Name</label><br>
+                  <input type="text" name="" id="" required>
+                </div>
+                <div>
+                  <label for="email">Your Email</label><br>
+                  <input type="email" name="" id="" required>
+                </div>
+              </div>
+              <div>
+                <label for="subject">Subject</label><br>
+                <input type="text" name="" id="" required>
+              </div>
+              <div>
+                <label for="message">Message</label><br>
+                <textarea name="" id="" rows="13" required></textarea>
+              </div>
+              <div class="message-btn">
+                <input type="submit" value="Send Message">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Arrow to Top -->
+        <a href="#" class="back-to-top" onclick="topFunction()"> <i class="fas fa-arrow-up"></i></a>
+
+        <!-- Footer Section -->
+      <footer id="footer">
+      <div class="footer-container">
+        <div class="credits">
+          Designed by <a href="#">Sajid Ali</a>
+        </div>
+        <div class="copyright">
+          &copy; Copyright <strong><span>2021</span></strong>
+        </div>
+      </div>
+    </footer>
+  </div>
+  </body>
+</html>
